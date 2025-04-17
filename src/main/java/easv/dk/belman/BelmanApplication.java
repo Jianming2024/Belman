@@ -12,7 +12,7 @@ import java.io.IOException;
 public class BelmanApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("views/LoginView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("LoginView.fxml"));
         Scene scene = new Scene(root);
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
         stage.setTitle("Log in View");
